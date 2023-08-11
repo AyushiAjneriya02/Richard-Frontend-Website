@@ -1,0 +1,62 @@
+.sec2{
+    height: 115vh;
+    width: 100%; 
+ } 
+
+.count{
+    height: 5em;
+    width: 100%;
+    display: flex;
+}
+
+.countp{
+    width: 25%;
+    height: 5em;
+    margin: 5em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.countp h1{
+    font-size: 4em;
+}
+
+.countp p{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.main{
+    height: 20em;
+    width: 100%;
+    margin-top: 15em;
+    display: flex;
+} 
+.maincon{
+    width: 65%;
+    margin-left: 4em;
+    justify-content: center;
+}
+.maincon p{
+font-size: .8em;
+padding: .4em;
+}
+.maincon h1{
+    font-size: 2.5em;
+}
+.maincon .para{
+font-size: 1em;
+}
+.m{
+    width: 50%;
+}
+.m img{
+    height: 90%;
+    width: 70%;
+    border: 4px solid black;
+    transition: .5s;
+}
+.m img:hover{
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}

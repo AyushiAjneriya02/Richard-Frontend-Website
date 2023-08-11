@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.sec1{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #cf3888,#762057);
+   
+}
+.nbar{
+    display: flex;
+    margin-left: 3em;
+}
+.nbar .image{
+    width: 60%;
+    margin-top: 1em;
+}
+.nbar a{
+    font-size: 2em;
+    text-decoration: none;
+    color:white ;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.nbar ul{
+display: flex;
+margin-top: 1em;
+}
+.nbar ul li{
+list-style: none;
+}
+.nbar ul li a{
+    text-decoration: none;
+    padding: .5em;
+    font-size: 1.3em;
+    color: rgb(237, 223, 223);
+    text-transform: capitalize;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.nbar ul li a:hover{
+    color: white;
+}
+.cont{
+    display: flex;
+}
+.con{
+    margin-top: 8em;
+    width: 70%;
+    margin-left: 1.4em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.con h1{
+    font-size: 4em;
+    padding: .1em;
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 10px 10px 10px rgb(46, 46, 42) ;
+    
+}
+.con p{
+    padding: .1em;
+    font-size: 2em;
+    text-shadow: 10px 10px 10px rgb(46, 46, 42) ;
+}
+.con .btn{
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    background-color: rgb(255, 0, 128);
+    border-color:  rgb(241, 42, 142);
+}
+.disimg{
+    margin-top: 1.7em;
+}
+.disimg img{
+    height: 23em;
+    width: 12em;
+    box-shadow: 20px 20px 30px rgb(38, 38, 39);
+    transition: 2s linear;
+    transform: rotateZ(30deg);
+}
+
+
+
+
+

@@ -1,0 +1,71 @@
+.sec {
+    height: 110vh;
+    width: 100%;
+}
+
+.color {
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #cf3888 32%, #1b28bb);
+    ;
+}
+
+.containt {
+    text-align: center;
+    align-items: center;
+}
+.containt h1{
+    padding-top: 2.5em;
+    font-size: 1.9em;
+    color: white;
+}
+.containt .btn{
+    width: 160px;
+    padding: 15px 19px;
+    margin-top: 1em;
+    font-size: .7em;
+    color: white;
+}
+.containt .btn1{
+    background-color: rgb(255, 0, 128);
+    border-color:  rgb(241, 42, 142);
+}
+.containt .btn2{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.black {
+    height: 55vh;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 4em;
+}
+.black h1{
+font-size: 2em;
+}
+.black p{
+    font-size: .9em ;
+    color: rgb(212, 206, 206);
+    opacity: 50%;
+    padding: 22px;
+}
+.black  .input input{
+    padding: 14px 13px;
+    font-size: .7em;
+    width: 23%;
+}
+.black  .input a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    background-color: rgb(255, 0, 128);
+    border-color:  rgb(241, 42, 142);
+    padding: 16px 35px;
+    margin: -5px;
+    font-size: .7em;
+    width: 15%;
+}
